@@ -171,6 +171,8 @@ and open the template in the editor.
             <xs:element name="dataInputDate2" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
             <xs:element name="dataInputNumeric" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
             <xs:element name="partSelection" type="PredicatePartConceptSelection" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="parameterEnd" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="functionEnd" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
 
